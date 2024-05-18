@@ -1,0 +1,53 @@
+[0.100s] Invoking command in '/home/bartek/prosty_robot_ws/build/prosty_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bartek/prosty_robot_ws/build/prosty_robot_description -- -j6 -l6
+[1.653s] Invoked command in '/home/bartek/prosty_robot_ws/build/prosty_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bartek/prosty_robot_ws/build/prosty_robot_description -- -j6 -l6
+[1.684s] Invoking command in '/home/bartek/prosty_robot_ws/build/prosty_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bartek/prosty_robot_ws/build/prosty_robot_description
+[1.714s] -- Install configuration: ""
+[1.737s] -- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/launch
+[1.737s] -- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/launch/gazebo.launch.py
+[1.738s] -- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/launch/controller.yaml
+[1.738s] -- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/launch/display.launch
+[1.738s] -- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/launch/gazebo.launch
+[1.738s] -- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/launch/controller.launch
+[1.739s] -- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/launch/urdf.rviz
+[1.739s] -- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/launch/display.launch.py
+[1.739s] -- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/meshes
+[1.740s] -- Installing: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/meshes/right_wheel_1.stl
+[1.745s] -- Installing: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/meshes/base_link.stl
+[1.745s] -- Installing: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/meshes/left_wheel_1.stl
+[1.752s] -- Installing: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/meshes/caster_wheel_1.stl
+[1.754s] -- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/models
+[1.755s] -- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/models/ground_plane
+[1.756s] -- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/models/ground_plane/model.sdf
+[1.756s] -- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/models/ground_plane/model-1_3.sdf
+[1.756s] -- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/models/ground_plane/model-1_4.sdf
+[1.756s] -- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/models/ground_plane/model-1_2.sdf
+[1.757s] -- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/models/ground_plane/model.config
+[1.757s] -- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/models/sun
+[1.757s] -- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/models/sun/model.sdf
+[1.757s] -- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/models/sun/model-1_3.sdf
+[1.757s] -- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/models/sun/model-1_4.sdf
+[1.757s] -- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/models/sun/model-1_2.sdf
+[1.757s] -- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/models/sun/model.config
+[1.757s] -- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/urdf
+[1.757s] -- Installing: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/urdf/prosty_robot.trans
+[1.757s] -- Installing: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/urdf/materials.xacro
+[1.757s] -- Installing: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/urdf/prosty_robot.xacro
+[1.758s] -- Installing: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/urdf/prosty_robot.gazebo
+[1.758s] -- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/rviz
+[1.758s] -- Installing: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/rviz/urdf.rviz
+[1.758s] -- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/ament_index/resource_index/package_run_dependencies/prosty_robot_description
+[1.758s] -- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/ament_index/resource_index/parent_prefix_path/prosty_robot_description
+[1.758s] -- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/environment/ament_prefix_path.sh
+[1.758s] -- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/environment/ament_prefix_path.dsv
+[1.758s] -- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/environment/path.sh
+[1.758s] -- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/environment/path.dsv
+[1.758s] -- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/local_setup.bash
+[1.758s] -- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/local_setup.sh
+[1.758s] -- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/local_setup.zsh
+[1.758s] -- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/local_setup.dsv
+[1.758s] -- Installing: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/package.dsv
+[1.759s] -- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/ament_index/resource_index/packages/prosty_robot_description
+[1.760s] -- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/cmake/prosty_robot_descriptionConfig.cmake
+[1.760s] -- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/cmake/prosty_robot_descriptionConfig-version.cmake
+[1.760s] -- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/package.xml
+[1.761s] Invoked command in '/home/bartek/prosty_robot_ws/build/prosty_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bartek/prosty_robot_ws/build/prosty_robot_description

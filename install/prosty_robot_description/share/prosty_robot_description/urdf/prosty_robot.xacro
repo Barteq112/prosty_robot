@@ -1,0 +1,111 @@
+<?xml version="1.0" ?>
+<robot name="prosty_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find prosty_robot_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find prosty_robot_description)/urdf/prosty_robot.trans" />
+<xacro:include filename="$(find prosty_robot_description)/urdf/prosty_robot.gazebo" />
+<link name="base_link">
+  <inertial>
+    <origin xyz="-0.19829224614777685 0.08199024825660226 0.1270173201027048" rpy="0 0 0"/>
+    <mass value="149.47616988047318"/>
+    <inertia ixx="2.127403" iyy="1.838748" izz="3.457173" ixy="-0.0" iyz="0.179444" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://prosty_robot_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://prosty_robot_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="left_wheel_1">
+  <inertial>
+    <origin xyz="0.008673123407169026 -9.262828527719855e-06 -0.002994595230330202" rpy="0 0 0"/>
+    <mass value="9.611364131600284"/>
+    <inertia ixx="0.058456" iyy="0.033438" izz="0.033439" ixy="2e-06" iyz="2e-06" ixz="-1e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.423292 0.011604 -0.100369" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://prosty_robot_description/meshes/left_wheel_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.423292 0.011604 -0.100369" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://prosty_robot_description/meshes/left_wheel_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="right_wheel_1">
+  <inertial>
+    <origin xyz="-0.008673592508539638 -8.877490102771751e-06 -0.002994479464359198" rpy="0 0 0"/>
+    <mass value="9.6113148239439"/>
+    <inertia ixx="0.058455" iyy="0.033438" izz="0.033438" ixy="-2e-06" iyz="2e-06" ixz="1e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.026708 0.011604 -0.100369" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://prosty_robot_description/meshes/right_wheel_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.026708 0.011604 -0.100369" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://prosty_robot_description/meshes/right_wheel_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="caster_wheel_1">
+  <inertial>
+    <origin xyz="-2.461443244505812e-07 -0.07499971597832394 -0.023200574241590707" rpy="0 0 0"/>
+    <mass value="2.5701014724196405"/>
+    <inertia ixx="0.001934" iyy="0.001934" izz="0.002983" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.198292 -0.314989 -0.06304" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://prosty_robot_description/meshes/caster_wheel_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.198292 -0.314989 -0.06304" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://prosty_robot_description/meshes/caster_wheel_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="left_wheel_joint" type="continuous">
+  <origin xyz="-0.423292 -0.011604 0.100369" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="left_wheel_1"/>
+  <axis xyz="-1.0 -0.0 0.0"/>
+</joint>
+
+<joint name="right_wheel_joint" type="continuous">
+  <origin xyz="0.026708 -0.011604 0.100369" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="right_wheel_1"/>
+  <axis xyz="1.0 0.0 0.0"/>
+</joint>
+
+<joint name="caster_wheel_joint" type="fixed">
+  <origin xyz="-0.198292 0.314989 0.06304" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="caster_wheel_1"/>
+</joint>
+
+</robot>

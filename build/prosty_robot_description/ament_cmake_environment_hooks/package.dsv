@@ -1,0 +1,4 @@
+source;share/prosty_robot_description/local_setup.bash
+source;share/prosty_robot_description/local_setup.dsv
+source;share/prosty_robot_description/local_setup.sh
+source;share/prosty_robot_description/local_setup.zsh
