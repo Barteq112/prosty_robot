@@ -2,7 +2,7 @@
 <robot name="prosty_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
 <xacro:include filename="$(find prosty_robot_description)/urdf/materials.xacro" />
-<xacro:include filename="$(find prosty_robot_description)/urdf/prosty_robot.trans" />
+<xacro:include filename="$(find prosty_robot_description)/urdf/prosty_robot_control.xacro" />
 <xacro:include filename="$(find prosty_robot_description)/urdf/prosty_robot.gazebo" />
 <link name="base_link">
   <inertial>
@@ -99,7 +99,7 @@
   <origin xyz="0.026708 -0.011604 0.100369" rpy="0 0 0"/>
   <parent link="base_link"/>
   <child link="right_wheel_1"/>
-  <axis xyz="1.0 0.0 0.0"/>
+  <axis xyz="-1.0 0.0 0.0"/>
 </joint>
 
 <joint name="caster_wheel_joint" type="fixed">

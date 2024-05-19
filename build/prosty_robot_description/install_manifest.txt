@@ -1,8 +1,6 @@
+/home/bartek/prosty_robot_ws/install/prosty_robot_description/include/include/prosty_robot_description/simple_controller.hpp
+/home/bartek/prosty_robot_ws/install/prosty_robot_description/lib/prosty_robot_description/simple_controller
 /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/launch/gazebo.launch.py
-/home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/launch/controller.yaml
-/home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/launch/display.launch
-/home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/launch/gazebo.launch
-/home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/launch/controller.launch
 /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/launch/urdf.rviz
 /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/launch/display.launch.py
 /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/meshes/right_wheel_1.stl
@@ -19,7 +17,8 @@
 /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/models/sun/model-1_4.sdf
 /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/models/sun/model-1_2.sdf
 /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/models/sun/model.config
-/home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/urdf/prosty_robot.trans
+/home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/urdf/prosty_robot_control.xacro
+/home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/urdf/prosty_robot_controllers.yaml
 /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/urdf/materials.xacro
 /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/urdf/prosty_robot.xacro
 /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/urdf/prosty_robot.gazebo

@@ -1,5 +1,6 @@
 /home/bartek/prosty_robot_ws/build/prosty_robot_description/CMakeFiles/uninstall.dir
 /home/bartek/prosty_robot_ws/build/prosty_robot_description/CMakeFiles/prosty_robot_description_uninstall.dir
+/home/bartek/prosty_robot_ws/build/prosty_robot_description/CMakeFiles/simple_controller.dir
 /home/bartek/prosty_robot_ws/build/prosty_robot_description/CMakeFiles/test.dir
 /home/bartek/prosty_robot_ws/build/prosty_robot_description/CMakeFiles/edit_cache.dir
 /home/bartek/prosty_robot_ws/build/prosty_robot_description/CMakeFiles/rebuild_cache.dir

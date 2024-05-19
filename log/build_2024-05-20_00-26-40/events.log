@@ -1,0 +1,246 @@
+[0.000000] (-) TimerEvent: {}
+[0.000115] (prosty_robot_description) JobQueued: {'identifier': 'prosty_robot_description', 'dependencies': OrderedDict()}
+[0.000172] (prosty_robot_description) JobStarted: {'identifier': 'prosty_robot_description'}
+[0.099392] (-) TimerEvent: {}
+[0.199802] (-) TimerEvent: {}
+[0.300388] (-) TimerEvent: {}
+[0.400895] (-) TimerEvent: {}
+[0.501468] (-) TimerEvent: {}
+[0.604012] (-) TimerEvent: {}
+[0.705248] (-) TimerEvent: {}
+[0.805833] (-) TimerEvent: {}
+[0.906175] (-) TimerEvent: {}
+[0.929889] (prosty_robot_description) JobProgress: {'identifier': 'prosty_robot_description', 'progress': 'cmake'}
+[1.006374] (-) TimerEvent: {}
+[1.039213] (prosty_robot_description) JobProgress: {'identifier': 'prosty_robot_description', 'progress': 'build'}
+[1.042542] (prosty_robot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bartek/prosty_robot_ws/build/prosty_robot_description', '--', '-j6', '-l6'], 'cwd': '/home/bartek/prosty_robot_ws/build/prosty_robot_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'bartek'), ('LC_TIME', 'pl_PL.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bartek'), ('OLDPWD', '/home/bartek'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('MANAGERPID', '1556'), ('SYSTEMD_EXEC_PID', '1802'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4525'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'bartek'), ('JOURNAL_STREAM', '8:29626'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bartek'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/bartek-ThinkPad-L480:@/tmp/.ICE-unix/1779,unix/bartek-ThinkPad-L480:/tmp/.ICE-unix/1779'), ('INVOCATION_ID', 'e25670b85b0f4de4b71184dd29f0d785'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pl_PL.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:5908e87f-4a53-417e-b6b4-95694735b8a5'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bartek/prosty_robot_ws/build/prosty_robot_description'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.106543] (-) TimerEvent: {}
+[1.207174] (-) TimerEvent: {}
+[1.360202] (-) TimerEvent: {}
+[1.463769] (-) TimerEvent: {}
+[1.564103] (-) TimerEvent: {}
+[1.664712] (-) TimerEvent: {}
+[1.765388] (-) TimerEvent: {}
+[1.866025] (-) TimerEvent: {}
+[1.966613] (-) TimerEvent: {}
+[2.067207] (-) TimerEvent: {}
+[2.167800] (-) TimerEvent: {}
+[2.268411] (-) TimerEvent: {}
+[2.369031] (-) TimerEvent: {}
+[2.469641] (-) TimerEvent: {}
+[2.570258] (-) TimerEvent: {}
+[2.670879] (-) TimerEvent: {}
+[2.771456] (-) TimerEvent: {}
+[2.872055] (-) TimerEvent: {}
+[2.972685] (-) TimerEvent: {}
+[3.073335] (-) TimerEvent: {}
+[3.173959] (-) TimerEvent: {}
+[3.274585] (-) TimerEvent: {}
+[3.375131] (-) TimerEvent: {}
+[3.475517] (-) TimerEvent: {}
+[3.576130] (-) TimerEvent: {}
+[3.676752] (-) TimerEvent: {}
+[3.777403] (-) TimerEvent: {}
+[3.799780] (prosty_robot_description) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target simple_controller\x1b[0m\n'}
+[3.853793] (prosty_robot_description) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o\x1b[0m\n'}
+[3.877551] (-) TimerEvent: {}
+[3.978168] (-) TimerEvent: {}
+[4.078907] (-) TimerEvent: {}
+[4.179168] (-) TimerEvent: {}
+[4.279448] (-) TimerEvent: {}
+[4.379707] (-) TimerEvent: {}
+[4.480041] (-) TimerEvent: {}
+[4.580643] (-) TimerEvent: {}
+[4.681178] (-) TimerEvent: {}
+[4.781847] (-) TimerEvent: {}
+[4.882459] (-) TimerEvent: {}
+[4.982953] (-) TimerEvent: {}
+[5.083233] (-) TimerEvent: {}
+[5.183682] (-) TimerEvent: {}
+[5.284248] (-) TimerEvent: {}
+[5.384617] (-) TimerEvent: {}
+[5.484865] (-) TimerEvent: {}
+[5.585117] (-) TimerEvent: {}
+[5.685401] (-) TimerEvent: {}
+[5.785663] (-) TimerEvent: {}
+[5.885890] (-) TimerEvent: {}
+[5.986134] (-) TimerEvent: {}
+[6.086355] (-) TimerEvent: {}
+[6.186580] (-) TimerEvent: {}
+[6.286832] (-) TimerEvent: {}
+[6.387099] (-) TimerEvent: {}
+[6.487395] (-) TimerEvent: {}
+[6.587615] (-) TimerEvent: {}
+[6.687923] (-) TimerEvent: {}
+[6.788176] (-) TimerEvent: {}
+[6.888434] (-) TimerEvent: {}
+[6.988697] (-) TimerEvent: {}
+[7.088957] (-) TimerEvent: {}
+[7.189207] (-) TimerEvent: {}
+[7.289448] (-) TimerEvent: {}
+[7.389676] (-) TimerEvent: {}
+[7.489909] (-) TimerEvent: {}
+[7.590148] (-) TimerEvent: {}
+[7.690423] (-) TimerEvent: {}
+[7.790681] (-) TimerEvent: {}
+[7.890912] (-) TimerEvent: {}
+[7.991164] (-) TimerEvent: {}
+[8.091399] (-) TimerEvent: {}
+[8.191630] (-) TimerEvent: {}
+[8.291889] (-) TimerEvent: {}
+[8.392130] (-) TimerEvent: {}
+[8.492356] (-) TimerEvent: {}
+[8.592612] (-) TimerEvent: {}
+[8.692869] (-) TimerEvent: {}
+[8.793125] (-) TimerEvent: {}
+[8.893405] (-) TimerEvent: {}
+[8.993681] (-) TimerEvent: {}
+[9.093930] (-) TimerEvent: {}
+[9.194155] (-) TimerEvent: {}
+[9.294405] (-) TimerEvent: {}
+[9.394657] (-) TimerEvent: {}
+[9.494884] (-) TimerEvent: {}
+[9.595140] (-) TimerEvent: {}
+[9.695391] (-) TimerEvent: {}
+[9.795648] (-) TimerEvent: {}
+[9.895906] (-) TimerEvent: {}
+[9.996164] (-) TimerEvent: {}
+[10.096414] (-) TimerEvent: {}
+[10.196663] (-) TimerEvent: {}
+[10.296883] (-) TimerEvent: {}
+[10.397136] (-) TimerEvent: {}
+[10.497392] (-) TimerEvent: {}
+[10.597620] (-) TimerEvent: {}
+[10.697873] (-) TimerEvent: {}
+[10.798118] (-) TimerEvent: {}
+[10.898400] (-) TimerEvent: {}
+[10.998666] (-) TimerEvent: {}
+[11.098913] (-) TimerEvent: {}
+[11.199157] (-) TimerEvent: {}
+[11.299402] (-) TimerEvent: {}
+[11.399676] (-) TimerEvent: {}
+[11.499917] (-) TimerEvent: {}
+[11.600159] (-) TimerEvent: {}
+[11.700404] (-) TimerEvent: {}
+[11.800650] (-) TimerEvent: {}
+[11.900896] (-) TimerEvent: {}
+[12.001142] (-) TimerEvent: {}
+[12.101382] (-) TimerEvent: {}
+[12.201623] (-) TimerEvent: {}
+[12.301869] (-) TimerEvent: {}
+[12.402119] (-) TimerEvent: {}
+[12.502363] (-) TimerEvent: {}
+[12.602607] (-) TimerEvent: {}
+[12.702928] (-) TimerEvent: {}
+[12.803251] (-) TimerEvent: {}
+[12.903907] (-) TimerEvent: {}
+[13.004197] (-) TimerEvent: {}
+[13.104541] (-) TimerEvent: {}
+[13.205152] (-) TimerEvent: {}
+[13.305797] (-) TimerEvent: {}
+[13.406411] (-) TimerEvent: {}
+[13.507013] (-) TimerEvent: {}
+[13.607629] (-) TimerEvent: {}
+[13.708250] (-) TimerEvent: {}
+[13.808870] (-) TimerEvent: {}
+[13.909478] (-) TimerEvent: {}
+[14.010087] (-) TimerEvent: {}
+[14.110659] (-) TimerEvent: {}
+[14.211164] (-) TimerEvent: {}
+[14.311478] (-) TimerEvent: {}
+[14.411709] (-) TimerEvent: {}
+[14.511947] (-) TimerEvent: {}
+[14.597887] (prosty_robot_description) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable simple_controller\x1b[0m\n'}
+[14.612140] (-) TimerEvent: {}
+[14.712725] (-) TimerEvent: {}
+[14.813212] (-) TimerEvent: {}
+[14.913488] (-) TimerEvent: {}
+[15.013927] (-) TimerEvent: {}
+[15.114518] (-) TimerEvent: {}
+[15.215137] (-) TimerEvent: {}
+[15.315753] (-) TimerEvent: {}
+[15.416261] (-) TimerEvent: {}
+[15.516565] (-) TimerEvent: {}
+[15.617160] (-) TimerEvent: {}
+[15.717789] (-) TimerEvent: {}
+[15.818396] (-) TimerEvent: {}
+[15.918912] (-) TimerEvent: {}
+[16.019259] (-) TimerEvent: {}
+[16.119846] (-) TimerEvent: {}
+[16.220469] (-) TimerEvent: {}
+[16.321010] (-) TimerEvent: {}
+[16.421320] (-) TimerEvent: {}
+[16.521720] (-) TimerEvent: {}
+[16.622324] (-) TimerEvent: {}
+[16.722912] (-) TimerEvent: {}
+[16.823519] (-) TimerEvent: {}
+[16.924212] (-) TimerEvent: {}
+[17.024750] (-) TimerEvent: {}
+[17.125039] (-) TimerEvent: {}
+[17.225384] (-) TimerEvent: {}
+[17.325928] (-) TimerEvent: {}
+[17.426225] (-) TimerEvent: {}
+[17.526480] (-) TimerEvent: {}
+[17.573595] (prosty_robot_description) StdoutLine: {'line': b'[100%] Built target simple_controller\n'}
+[17.626689] (-) TimerEvent: {}
+[17.643926] (prosty_robot_description) CommandEnded: {'returncode': 0}
+[17.704303] (prosty_robot_description) JobProgress: {'identifier': 'prosty_robot_description', 'progress': 'install'}
+[17.720258] (prosty_robot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bartek/prosty_robot_ws/build/prosty_robot_description'], 'cwd': '/home/bartek/prosty_robot_ws/build/prosty_robot_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'bartek'), ('LC_TIME', 'pl_PL.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bartek'), ('OLDPWD', '/home/bartek'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('MANAGERPID', '1556'), ('SYSTEMD_EXEC_PID', '1802'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4525'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'bartek'), ('JOURNAL_STREAM', '8:29626'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bartek'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/bartek-ThinkPad-L480:@/tmp/.ICE-unix/1779,unix/bartek-ThinkPad-L480:/tmp/.ICE-unix/1779'), ('INVOCATION_ID', 'e25670b85b0f4de4b71184dd29f0d785'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pl_PL.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:5908e87f-4a53-417e-b6b4-95694735b8a5'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bartek/prosty_robot_ws/build/prosty_robot_description'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[17.726795] (-) TimerEvent: {}
+[17.756412] (prosty_robot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.760421] (prosty_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/include/include\n'}
+[17.760840] (prosty_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/include/include/prosty_robot_description\n'}
+[17.761054] (prosty_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/include/include/prosty_robot_description/simple_controller.hpp\n'}
+[17.809907] (prosty_robot_description) StdoutLine: {'line': b'-- Installing: /home/bartek/prosty_robot_ws/install/prosty_robot_description/lib/prosty_robot_description/simple_controller\n'}
+[17.824874] (prosty_robot_description) StdoutLine: {'line': b'-- Set runtime path of "/home/bartek/prosty_robot_ws/install/prosty_robot_description/lib/prosty_robot_description/simple_controller" to ""\n'}
+[17.825417] (prosty_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/launch\n'}
+[17.825729] (prosty_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/launch/gazebo.launch.py\n'}
+[17.825881] (prosty_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/launch/urdf.rviz\n'}
+[17.826005] (prosty_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/launch/display.launch.py\n'}
+[17.826130] (prosty_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/meshes\n'}
+[17.826247] (prosty_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/meshes/right_wheel_1.stl\n'}
+[17.826362] (prosty_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/meshes/base_link.stl\n'}
+[17.826475] (prosty_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/meshes/left_wheel_1.stl\n'}
+[17.826589] (prosty_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/meshes/caster_wheel_1.stl\n'}
+[17.826702] (prosty_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/models\n'}
+[17.826809] (-) TimerEvent: {}
+[17.827110] (prosty_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/models/ground_plane\n'}
+[17.827536] (prosty_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/models/ground_plane/model.sdf\n'}
+[17.827665] (prosty_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/models/ground_plane/model-1_3.sdf\n'}
+[17.827786] (prosty_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/models/ground_plane/model-1_4.sdf\n'}
+[17.827902] (prosty_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/models/ground_plane/model-1_2.sdf\n'}
+[17.828033] (prosty_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/models/ground_plane/model.config\n'}
+[17.828150] (prosty_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/models/sun\n'}
+[17.828270] (prosty_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/models/sun/model.sdf\n'}
+[17.828398] (prosty_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/models/sun/model-1_3.sdf\n'}
+[17.828512] (prosty_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/models/sun/model-1_4.sdf\n'}
+[17.828624] (prosty_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/models/sun/model-1_2.sdf\n'}
+[17.828735] (prosty_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/models/sun/model.config\n'}
+[17.828846] (prosty_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/urdf\n'}
+[17.828964] (prosty_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/urdf/prosty_robot_control.xacro\n'}
+[17.829057] (prosty_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/urdf/prosty_robot_controllers.yaml\n'}
+[17.829170] (prosty_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/urdf/materials.xacro\n'}
+[17.829302] (prosty_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/urdf/prosty_robot.xacro\n'}
+[17.829581] (prosty_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/urdf/prosty_robot.gazebo\n'}
+[17.829744] (prosty_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/rviz\n'}
+[17.830046] (prosty_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/rviz/urdf.rviz\n'}
+[17.831163] (prosty_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/ament_index/resource_index/package_run_dependencies/prosty_robot_description\n'}
+[17.831464] (prosty_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/ament_index/resource_index/parent_prefix_path/prosty_robot_description\n'}
+[17.831859] (prosty_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/environment/ament_prefix_path.sh\n'}
+[17.832150] (prosty_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/environment/ament_prefix_path.dsv\n'}
+[17.832404] (prosty_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/environment/path.sh\n'}
+[17.832713] (prosty_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/environment/path.dsv\n'}
+[17.832944] (prosty_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/local_setup.bash\n'}
+[17.833278] (prosty_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/local_setup.sh\n'}
+[17.833537] (prosty_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/local_setup.zsh\n'}
+[17.833795] (prosty_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/local_setup.dsv\n'}
+[17.833957] (prosty_robot_description) StdoutLine: {'line': b'-- Installing: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/package.dsv\n'}
+[17.834567] (prosty_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/ament_index/resource_index/packages/prosty_robot_description\n'}
+[17.834826] (prosty_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/cmake/prosty_robot_descriptionConfig.cmake\n'}
+[17.834965] (prosty_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/cmake/prosty_robot_descriptionConfig-version.cmake\n'}
+[17.835160] (prosty_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/bartek/prosty_robot_ws/install/prosty_robot_description/share/prosty_robot_description/package.xml\n'}
+[17.835353] (prosty_robot_description) CommandEnded: {'returncode': 0}
+[17.926909] (-) TimerEvent: {}
+[18.027214] (-) TimerEvent: {}
+[18.078889] (prosty_robot_description) JobEnded: {'identifier': 'prosty_robot_description', 'rc': 0}
+[18.079309] (-) EventReactorShutdown: {}

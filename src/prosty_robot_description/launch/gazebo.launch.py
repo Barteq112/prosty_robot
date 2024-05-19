@@ -12,18 +12,18 @@ from launch_ros.parameter_descriptions import ParameterValue
 
 
 def generate_launch_description():
-    bumperbot_description = get_package_share_directory("prosty_robot_description")
-    bumperbot_description_prefix = get_package_prefix("prosty_robot_description")
+    prosty_robot_description = get_package_share_directory("prosty_robot_description")
+    prosty_robot_description_prefix = get_package_prefix("prosty_robot_description")
     gazebo_ros_dir = get_package_share_directory("gazebo_ros")
 
     model_arg = DeclareLaunchArgument(name="model", default_value=os.path.join(
-                                        bumperbot_description, "urdf", "prosty_robot.xacro"
+                                        prosty_robot_description, "urdf", "prosty_robot.xacro"
                                         ),
                                       description="Absolute path to robot urdf file"
     )
 
-    model_path = os.path.join(bumperbot_description, "models")
-    model_path += pathsep + os.path.join(bumperbot_description_prefix, "share")
+    model_path = os.path.join(prosty_robot_description, "models")
+    model_path += pathsep + os.path.join(prosty_robot_description_prefix, "share")
 
     env_var = SetEnvironmentVariable("GAZEBO_MODEL_PATH", model_path)
 
@@ -49,10 +49,29 @@ def generate_launch_description():
     )
 
     spawn_robot = Node(package="gazebo_ros", executable="spawn_entity.py",
-                        arguments=["-entity", "bumperbot",
+                        arguments=["-entity", "prosrty_robot",
                                    "-topic", "robot_description",
                                   ],
                         output="screen"
+    )
+
+    joint_state_broadcaster_spawner = Node(
+        package="controller_manager",
+        executable="spawner",
+        arguments=[
+            "joint_state_broadcaster",
+            "--controller-manager",
+            "/controller_manager",
+        ],
+    )
+
+    simple_controller = Node(
+        package="controller_manager",
+        executable="spawner",
+        arguments=["simple_velocity_controller",
+                "--controller-manager",
+                "/controller_manager"
+        ]
     )
 
     return LaunchDescription([
@@ -61,5 +80,7 @@ def generate_launch_description():
         start_gazebo_server,
         start_gazebo_client,
         robot_state_publisher_node,
-        spawn_robot
+        spawn_robot,
+        joint_state_broadcaster_spawner,
+        simple_controller,
     ])

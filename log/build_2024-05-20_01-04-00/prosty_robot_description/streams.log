@@ -1,0 +1,14 @@
+[0.056s] Invoking command in '/home/bartek/prosty_robot_ws/build/prosty_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bartek/prosty_robot_ws/build/prosty_robot_description -- -j6 -l6
+[0.093s] [35m[1mConsolidate compiler generated dependencies of target simple_controller[0m
+[0.114s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[2.639s] [01m[K/home/bartek/prosty_robot_ws/src/prosty_robot_description/src/simple_controller.cpp:[m[K In member function ‘[01m[Kvoid SimpleController::velCallback(const Twist&)[m[K’:
+[2.639s] [01m[K/home/bartek/prosty_robot_ws/src/prosty_robot_description/src/simple_controller.cpp:29:37:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kgeometry_msgs::msg::Twist_<std::allocator<void> >::Twist_[m[K’
+[2.639s]    29 |     Eigen::Vector2d robot_speed(msg.[01;31m[KTwist_[m[K.linear.x, msg.Twist_.angular.z);
+[2.639s]       |                                     [01;31m[K^~~~~~[m[K
+[2.639s] [01m[K/home/bartek/prosty_robot_ws/src/prosty_robot_description/src/simple_controller.cpp:29:58:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kgeometry_msgs::msg::Twist_<std::allocator<void> >::Twist_[m[K’
+[2.639s]    29 |     Eigen::Vector2d robot_speed(msg.Twist_.linear.x, msg.[01;31m[KTwist_[m[K.angular.z);
+[2.639s]       |                                                          [01;31m[K^~~~~~[m[K
+[4.861s] gmake[2]: *** [CMakeFiles/simple_controller.dir/build.make:76: CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o] Error 1
+[4.861s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/simple_controller.dir/all] Error 2
+[4.861s] gmake: *** [Makefile:146: all] Error 2
+[4.863s] Invoked command in '/home/bartek/prosty_robot_ws/build/prosty_robot_description' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bartek/prosty_robot_ws/build/prosty_robot_description -- -j6 -l6
