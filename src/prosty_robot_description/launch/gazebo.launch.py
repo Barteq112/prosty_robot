@@ -74,6 +74,11 @@ def generate_launch_description():
         ]
     )
 
+    simple_con = Node(
+        package="prosty_robot_description",
+        executable="simple_controller"
+
+    )
     return LaunchDescription([
         env_var,
         model_arg,
@@ -83,4 +88,5 @@ def generate_launch_description():
         spawn_robot,
         joint_state_broadcaster_spawner,
         simple_controller,
+        simple_con
     ])
